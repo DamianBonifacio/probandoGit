@@ -1,0 +1,56 @@
+
+/*selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: coral;
+}
+
+#prueba {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: black;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+/* los selectores de id no se pueden repetir */
+#titulo2 {
+    color: aqua;
+    font-size: 10px;
+
+}
+#titulo1 {
+    color: chartreuse;
+    font-size: large;
+}
+.parrafoVerde{
+    color: green;
+    font-size: large;
+}
+.parrafoRojo{
+    color: red;
+    font-size: medium;
+}
+.parrafoVioleta{
+    color: blueviolet;
+    font-size: smaller;
+}
+
+div#span p span{
+    color: yellow;
+    font-size: x-large;
+    font-style: italic;
+    
+}
+div#span p.rojo span{
+    color: rgb(15, 1, 12);
+    font-size: x-large;
+    font-style: italic;
+    
+}
