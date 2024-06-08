@@ -1,0 +1,19 @@
+º instalar git
+º crear cuenta en gitHub
+-crear carpeta donde van a programar el integrador, crear archivo index.html
+-terminal->new terminal
+-git init //inicializa el proyecto en git
+-git add . // agrefa todos los archivos nuevos al area de preparación
+-git commit -m 'comentario' // sube los archivos del area preparacion a repo local
+-github crear repositorio
+-git remote add origin https://github.com/damianbonifacio/probandogit
+-git push -u origin master
+
+Publicar proyecto en github pages
+-settings ->pages
+-branch ->master save
+
+Subir nuevos archivos
+-git add .
+-git commit -m 'comentario'
+-git push -u origin master
