@@ -26,7 +26,7 @@ h1 {
 
 }
 #titulo1 {
-    color: chartreuse;
+    color: chartreuse; 
     font-size: large;
 }
 .parrafoVerde{
@@ -53,4 +53,16 @@ div#span p.rojo span{
     font-size: x-large;
     font-style: italic;
     
+}
+.titulo{
+    font-size: small;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#banner{
+    background-image: url(../statics/CynarBourbon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
